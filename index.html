@@ -1,107 +1,168 @@
 <!doctype html>
-<!-- barber · mid-century-sign · hero-layout 1 · svc-layout 0 · generated from live Google Places data for Lincoln Barbers -->
+<!-- ARCHETYPE: Classic American historic shop. Cash-only, multiple barbers,
+     heritage Lincoln-name. Deep navy + cream + brass. Cardo serif + Inter. -->
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Lincoln Barbers — Barber shop, Santa Monica</title>
-<meta name="description" content="Lincoln Barbers — Barber shop in Santa Monica.">
+<title>Lincoln Barbers — Santa Monica · Since the old days</title>
+<meta name="description" content="A traditional cash-only barbershop on Lincoln Boulevard. Open seven days, $30 cuts, straight-razor finish.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f3e7c9;--surface:#fff8e9;--ink:#1a1410;--mut:#6f5e4a;--acc:#c89a3a;--line:#d6c8a3}
+:root{--navy:#0d1c34;--navy-2:#16284a;--cream:#f1ead4;--paper:#fbf6e5;--brass:#b8954a;--brass-2:#d4b266;--ink:#0a1326;--mut:#7c8094;--rule:#2a3e63}
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'DM Sans',Georgia,serif;background:var(--bg);color:var(--ink);line-height:1.62;-webkit-font-smoothing:antialiased}
-.disp{font-family:'Bebas Neue',sans-serif}
-a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
-img{max-width:100%;display:block}
-.wrap{max-width:1120px;margin:0 auto;padding:0 26px}
-header{padding:16px 0;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:30}
-header .row{display:flex;align-items:center;justify-content:space-between;gap:16px}
-.brand{font-family:'Bebas Neue',sans-serif;font-weight:700;font-size:21px;letter-spacing:-.01em;color:var(--ink)}
-nav a{margin-left:20px;color:var(--mut);font-size:13.5px;font-weight:500}nav a:hover{color:var(--acc);text-decoration:none}
-.callbtn{display:inline-flex;align-items:center;gap:7px;background:var(--acc);color:#fff;padding:9px 16px;border-radius:8px;font-weight:600;font-size:13.5px;margin-left:20px}
-.callbtn:hover{filter:brightness(.92);text-decoration:none;color:#fff}
-.hero{padding:72px 0 60px}
-.hero .grid{display:grid;grid-template-columns:1.05fr .95fr;gap:46px;align-items:center}
-.kicker{display:inline-block;font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);margin-bottom:18px}
-h1{font-family:'Bebas Neue',sans-serif;font-weight:700;font-size:clamp(40px,6.2vw,72px);line-height:1.02;letter-spacing:-.025em;margin-bottom:20px}
-.lede{font-size:18px;color:var(--mut);max-width:480px;margin-bottom:28px}
-.cta{display:flex;gap:12px;flex-wrap:wrap}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:8px;font-weight:600;font-size:14px;border:1.5px solid var(--ink);color:var(--ink);background:transparent}
-.btn:hover{background:var(--ink);color:var(--bg);text-decoration:none}
-.btn.solid{background:var(--acc);border-color:var(--acc);color:#fff}
-.btn.solid:hover{filter:brightness(.92);color:#fff}
-.hero-img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:16px;order:-1;}
-.section{padding:62px 0;border-top:1px solid var(--line)}
-.kick{font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);margin-bottom:8px}
-h2{font-family:'Bebas Neue',sans-serif;font-weight:700;font-size:34px;letter-spacing:-.02em;margin-bottom:8px}
+html,body{background:var(--navy);color:var(--cream);font-family:'Inter',system-ui,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+.serif{font-family:'Cardo',Georgia,serif}
+a{color:var(--brass-2);text-decoration:none}a:hover{color:var(--cream);text-decoration:underline;text-underline-offset:3px}
+img{max-width:100%;display:block}.wrap{max-width:1140px;margin:0 auto;padding:0 28px}
+/* Engraved-plate masthead */
+header{padding:24px 0;text-align:center;border-bottom:1px solid var(--brass)}
+header::before,header::after{content:"";display:block;width:120px;height:1px;background:var(--brass);margin:0 auto 14px}
+header::after{margin:14px auto 0}
+.brand{font-family:'Cardo',serif;font-weight:700;font-size:clamp(36px,5vw,52px);letter-spacing:.02em;color:var(--cream);line-height:1}
+.brand .am{color:var(--brass-2);font-style:italic;font-weight:400}
+.sub{margin-top:10px;font-size:11px;letter-spacing:.36em;text-transform:uppercase;color:var(--brass-2);font-weight:500}
+nav{margin-top:18px;display:flex;justify-content:center;gap:30px;font-size:12px;letter-spacing:.18em;text-transform:uppercase}
+nav a{color:var(--cream);opacity:.85;font-weight:500}
+nav a:hover{color:var(--brass-2);text-decoration:none}
+/* Hero */
+.hero{padding:96px 0 88px;text-align:center;border-bottom:1px solid var(--rule)}
+.hero .seal{display:inline-flex;align-items:center;gap:14px;font-family:'Cardo',serif;font-style:italic;color:var(--brass-2);font-size:20px;margin-bottom:24px}
+.hero .seal::before,.hero .seal::after{content:"";width:48px;height:1px;background:var(--brass-2)}
+.hero h1{font-family:'Cardo',serif;font-weight:700;font-size:clamp(54px,8vw,108px);line-height:0.98;letter-spacing:-.015em;color:var(--cream);margin-bottom:24px;max-width:920px;margin-left:auto;margin-right:auto}
+.hero h1 em{font-style:italic;color:var(--brass-2);font-weight:400}
+.hero .lede{font-size:18px;color:var(--cream);opacity:.86;max-width:580px;margin:0 auto 32px;line-height:1.65}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 32px;font-size:13px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;border:1.5px solid var(--brass);background:transparent;color:var(--cream)}
+.btn:hover{background:var(--brass);color:var(--ink);text-decoration:none}
+.btn.solid{background:var(--brass);border-color:var(--brass);color:var(--ink)}
+.btn.solid:hover{background:var(--cream);border-color:var(--cream)}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.hero .cash{display:inline-block;margin-top:24px;font-family:'Cardo',serif;font-style:italic;color:var(--brass-2);font-size:16px;padding:6px 18px;border:1px solid var(--brass-2);border-radius:2px}
+/* Pediment / banner photo */
+.banner{padding:0;background:var(--ink);border-bottom:1px solid var(--brass)}
+.banner img{width:100%;aspect-ratio:21/9;object-fit:cover;background:var(--navy-2);filter:saturate(.85) brightness(.92) sepia(.05)}
+/* Section */
+.section{padding:96px 0;border-bottom:1px solid var(--rule)}
+.section.cream{background:var(--cream);color:var(--ink)}
+.eyebrow{font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:var(--brass-2);font-weight:600;text-align:center;margin-bottom:14px}
+.section.cream .eyebrow{color:var(--navy)}
+h2{font-family:'Cardo',serif;font-weight:700;font-size:clamp(40px,5vw,64px);text-align:center;color:var(--cream);margin-bottom:48px;line-height:1.1;letter-spacing:-.01em}
+h2 em{font-style:italic;color:var(--brass-2);font-weight:400}
+.section.cream h2{color:var(--navy)}.section.cream h2 em{color:var(--brass)}
+/* Price plate */
+.plate{max-width:680px;margin:0 auto;border:2px solid var(--navy);background:var(--paper);padding:36px 44px}
+.plate h3{font-family:'Cardo',serif;text-align:center;font-size:20px;letter-spacing:.18em;text-transform:uppercase;color:var(--navy);margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid var(--navy);font-weight:700}
+.plate .row{display:grid;grid-template-columns:1fr auto;gap:24px;padding:14px 0;border-bottom:1px dotted #b8a880;align-items:baseline}
+.plate .row:last-child{border-bottom:0}
+.plate .nm{font-family:'Cardo',serif;font-size:19px;color:var(--navy);font-weight:400}
+.plate .nm small{display:block;font-family:'Inter',sans-serif;font-size:13px;color:var(--mut);margin-top:3px}
+.plate .p{font-family:'Cardo',serif;font-style:italic;font-size:22px;color:var(--brass);font-weight:400}
+.plate .foot{margin-top:24px;padding-top:18px;border-top:1px solid var(--navy);text-align:center;font-family:'Cardo',serif;font-style:italic;color:var(--mut);font-size:14px}
+/* Words */
+.words .grid{display:grid;grid-template-columns:1fr 1fr;gap:36px;max-width:960px;margin:0 auto}
+.words .q{padding:24px 0;border-top:1px solid var(--rule)}
+.words .q p{font-family:'Cardo',serif;font-style:italic;font-size:19px;line-height:1.5;color:var(--cream);margin-bottom:14px;opacity:.92}
+.words .q .who{font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--brass-2);font-weight:600}
+/* Visit */
+.visit .card{max-width:880px;margin:0 auto;border:2px solid var(--brass);background:var(--navy-2)}
+.visit .head{padding:32px 40px;text-align:center;border-bottom:1px solid var(--brass)}
+.visit h3{font-family:'Cardo',serif;font-weight:700;font-size:32px;color:var(--cream);letter-spacing:.005em;margin-bottom:6px}
+.visit h3 em{font-style:italic;color:var(--brass-2);font-weight:400}
+.visit .grid{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.visit .info{padding:32px 40px;border-right:1px solid var(--brass)}
+.visit .row{display:grid;grid-template-columns:130px 1fr;padding:12px 0;border-bottom:1px solid var(--rule);font-size:14.5px;align-items:baseline}
+.visit .row:last-child{border-bottom:0}
+.visit .row .k{font-family:'Cardo',serif;font-style:italic;color:var(--brass-2);font-size:15px}
+.visit .row .v{color:var(--cream)}
+.visit iframe{width:100%;height:100%;min-height:340px;border:0;filter:invert(.92) hue-rotate(180deg) saturate(.5)}
+.visit .actions{padding:24px 40px;text-align:center;border-top:1px solid var(--brass)}
+footer{padding:36px 0 60px;background:var(--ink);text-align:center;color:var(--mut);font-size:13px;border-top:1px solid var(--brass)}
+footer .fb{font-family:'Cardo',serif;font-weight:700;font-size:26px;color:var(--cream);letter-spacing:.02em;margin-bottom:6px}
+footer .fb .am{color:var(--brass-2);font-style:italic;font-weight:400}
+footer .credit{margin-top:18px;font-family:'Cardo',serif;font-style:italic;color:var(--mut);font-size:14px}
+footer .credit a{color:var(--brass-2)}
+@media(max-width:760px){
+  .visit .grid{grid-template-columns:1fr}.visit .info{border-right:0;border-bottom:1px solid var(--brass)}
+  .words .grid{grid-template-columns:1fr;gap:0}nav{flex-wrap:wrap;gap:16px}
+}
+</style></head>
+<body>
+<header>
+  <div class="brand serif">Lincoln <span class="am">&amp;</span> Barbers</div>
+  <div class="sub">Established · 1511 Lincoln Boulevard · Santa Monica</div>
+  <nav><a href="#price">Prices</a><a href="#words">Words</a><a href="#visit">Visit</a></nav>
+</header>
 
-.svcs{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:30px}
-.svcs .svc{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:22px}
-.svc-rows{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}
-.svc-rows .svc-row{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:24px 26px;display:flex;align-items:baseline;gap:14px}
-.svc-list{margin-top:30px;border-top:1px solid var(--line)}
-.svc-list .svc-line{display:flex;align-items:baseline;gap:18px;padding:22px 0;border-bottom:1px solid var(--line)}
-.snum{font-family:'Bebas Neue',sans-serif;font-size:13px;color:var(--acc);font-weight:600;letter-spacing:.08em}
-.svcs .svc h3,.svc-rows .svc-row h3,.svc-list .svc-line h3{font-family:'Bebas Neue',sans-serif;font-weight:600;font-size:19px;margin-top:10px;letter-spacing:-.01em}
-
-.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:28px}
-.gallery img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:12px;border:1px solid var(--line)}
-.quotes{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:28px}
-.q{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:24px}
-.q p{font-family:'Bebas Neue',sans-serif;font-size:18px;line-height:1.5;margin-bottom:12px}
-.q .who{font-size:13px;font-weight:600;color:var(--acc)}
-.visit{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-top:28px}
-.visit .info{padding:30px 32px;background:var(--surface)}
-.hrow{display:grid;grid-template-columns:120px 1fr;gap:12px;padding:9px 0;border-bottom:1px solid var(--line);font-size:14.5px}
-.hrow:last-child{border-bottom:0}.hd{font-weight:600}.ht{color:var(--mut)}
-.visit iframe{width:100%;height:100%;min-height:360px;border:0}
-.contact-line{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
-footer{background:var(--ink);color:var(--bg);padding:32px 0 46px;border-top:1px solid var(--line)}
-footer .fbrand{font-family:'Bebas Neue',sans-serif;font-weight:700;font-size:18px}
-footer .credit{margin-top:10px;font-size:13px;opacity:.82}footer a{color:var(--acc)}
-@media(max-width:800px){.hero .grid{grid-template-columns:1fr}.hero-img{order:0;aspect-ratio:16/10}.svcs{grid-template-columns:1fr 1fr}.svc-rows{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.quotes,.visit{grid-template-columns:1fr}nav{display:none}.visit iframe{min-height:280px}}
-</style></head><body>
-<header><div class="wrap row">
-  <div class="brand">Lincoln Barbers</div>
-  <div style="display:flex;align-items:center"><nav><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#visit">Visit</a></nav><a class="callbtn" href="tel:+13104510990">Call (310) 451-0990</a></div>
-</div></header>
-
-<section class="hero"><div class="wrap"><div class="grid">
-  <div>
-    <span class="kicker">Grooming, done right</span>
-    <h1 class="disp">Real cuts, real care.</h1>
-    <p class="lede">A neighborhood barber shop that's earned its regulars the honest way — by being good at what it does. Here's everything you need to find us, reach us, and stop by.</p>
-    <div class="cta"><a class="btn solid" href="tel:+13104510990">Call (310) 451-0990</a><a class="btn" href="#visit">Hours &amp; location</a></div>
+<section class="hero"><div class="wrap">
+  <div class="seal serif">Open seven days · cash only</div>
+  <h1 class="serif">Sharp cuts. Quiet barbers.<br><em>Straight-razor</em> finish.</h1>
+  <p class="lede">A traditional barbershop on Lincoln Boulevard. Walk in seven days a week, get sat down quick, leave with a clean fade and a finished neckline. Thirty dollars, cash. Always has been.</p>
+  <div class="cta">
+    <a class="btn solid" href="tel:+13104510990">Call · (310) 451-0990</a>
+    <a class="btn" href="#price">View prices</a>
   </div>
-  <img class="hero-img" src="https://lh3.googleusercontent.com/places/ANXAkqHw6fVmoR1QhQV2QN6xHVe_zZ-iA3trAJIm0EKFnloovnzq5RnmQs8ju7JLdLSnMuRwRc4EqiPvCRYQoQryOXnRWk4o29Vpymc=s4800-w1537" alt="Lincoln Barbers">
-</div></div></section>
-
-<section class="section" id="services"><div class="wrap">
-  <div class="kick">Grooming, done right</div>
-  <h2>What we do.</h2>
-  <div class="svcs"><div class="svc"><span class="snum">01</span><h3>Skin fades &amp; tapers</h3></div><div class="svc"><span class="snum">02</span><h3>Beard trims &amp; line-ups</h3></div><div class="svc"><span class="snum">03</span><h3>Hot-towel shaves</h3></div><div class="svc"><span class="snum">04</span><h3>Kids&#x27; cuts</h3></div></div>
+  <div class="cash serif">Cash only · ATM nearby</div>
 </div></section>
 
-<section class="section gal-sec"><div class="wrap"><div class="kick">A look inside</div><h2>The place itself.</h2><div class="gallery"><img src="https://lh3.googleusercontent.com/places/ANXAkqE1IBlUkeuQquNCzwPLW_hGZRa-WZ4fineK6oL_mOayIGNY9aXzEEWs8G3q15zFfOTntLqcgYonQjZdwXOZaMHwH6n8WdSsYUo=s4800-w1600" alt="Lincoln Barbers" loading="lazy"><img src="https://lh3.googleusercontent.com/place-photos/AJRVUZMsY81OsuEEsGIn5AiSm-wcAQcAoS5pcpzZrWYcX9sUY0RN66ad7ILCcqyOrp5D_TeyekrrxNVOslqa4tSjeb0BCb2octWHZS5revR5iFBOdCMZoZWoGGHMhYNzpoBaChBjGPdOSrpCBapj5OzEJPQ2Mg=s4800-w1600" alt="Lincoln Barbers" loading="lazy"><img src="https://lh3.googleusercontent.com/place-photos/AJRVUZMy5eBFddLEWhyCwQE59_fz7_4KRFHoGfo6t0ULxm1eRYDsYX60AHCzuEzWX2zLCAHSoIz5ED1yMNcletGhaViaOsXrDZuiOAp3_nEXHTVspK16smImA-s7dCjuUlF-V8iRO8O1LxC-tpwAr8UPXA4FGA=s4800-w1600" alt="Lincoln Barbers" loading="lazy"><img src="https://lh3.googleusercontent.com/places/ANXAkqEKZKtT4In_GgoVETgtLi_fqcwo-K9Z4a4Vj2fqaGzdak2xKdSQrdFV4ZcElO5hAEhINzno9FcpNsjGOgZiYFgb0IOQgJWFsao=s4800-w1600" alt="Lincoln Barbers" loading="lazy"><img src="https://lh3.googleusercontent.com/place-photos/AJRVUZOQrW37igZsY2FC7-0j6c9EOQoAAjBS_3y55Iuja7qsupmjwovkohGRPlR5ziD9l4CvToBjPdIR4HwWBS2V37BZDnUlV8ib3ye67NyHuuP_51NTOlU1WNXj3NS1xQ-3fObebaw5XYER_Ovn=s4800-w1600" alt="Lincoln Barbers" loading="lazy"></div></div></section>
-<section class="section"><div class="wrap"><div class="kick">In their words</div><h2>What people say.</h2><div class="quotes"><div class="q"><p>Exceptional Cut and Outstanding Service at Lincoln Barbers  I had an amazing experience at Lincoln Barbers, located at 1511 Lincoln Blvd, Santa Monica. Chayan gave me a really good haircut—focused, precise, and executed with…</p><div class="who">— Seek T.</div></div><div class="q"><p>CASH ONLY  Just walked out and had an excellent experience. No nonsense. Ruben was quiet, haircut was excellent. Finished it with a straight razor around the edges, which was nice. Certainly will be coming back. $30 haircut,…</p><div class="who">— Chris S.</div></div><div class="q"><p>I went in after some guy butchered my hair so bad I didn’t know what to do. The guy in there saw how fucked my hair was and he straight away sat me down and fixed me up’… he did his best and it actually looked a million times…</p><div class="who">— Lee R.</div></div><div class="q"><p>I went there today for the first time, and Daniel was great! He’s really talented and super kind. The fade came out awesome, and he didn’t take long at all, plus it’s affordable. I’ll be coming back for sure.</p><div class="who">— Adel A.</div></div></div></div></section>
+<section class="banner">
+  <img src="https://lh3.googleusercontent.com/places/ANXAkqHw6fVmoR1QhQV2QN6xHVe_zZ-iA3trAJIm0EKFnloovnzq5RnmQs8ju7JLdLSnMuRwRc4EqiPvCRYQoQryOXnRWk4o29Vpymc=s4800-w1537" alt="Inside Lincoln Barbers" loading="eager">
+</section>
 
-<section class="section" id="visit"><div class="wrap">
-  <div class="kick">Find us</div>
-  <h2>Visit Lincoln.</h2>
-  <div class="visit">
-    <div class="info">
-      <div class="contact-line"><a class="btn solid" href="tel:+13104510990">Call (310) 451-0990</a><a class="btn" href="https://www.google.com/maps/search/?api=1&query=1511+Lincoln+Blvd,+Santa+Monica,+CA+90401,+USA" target="_blank" rel="noopener">Get directions</a></div>
-      <div class="hrow"><span class="hd">Address</span><span class="ht">1511 Lincoln Blvd, Santa Monica, CA 90401, USA</span></div>
-      <div class="hrow"><span class="hd">Phone</span><span class="ht"><a href="tel:+13104510990">(310) 451-0990</a></span></div>
-      <div class="hrow"><span class="hd">Monday</span><span class="ht">7:00 AM – 5:00 PM</span></div><div class="hrow"><span class="hd">Tuesday</span><span class="ht">7:00 AM – 7:00 PM</span></div><div class="hrow"><span class="hd">Wednesday</span><span class="ht">7:00 AM – 7:00 PM</span></div><div class="hrow"><span class="hd">Thursday</span><span class="ht">7:00 AM – 7:00 PM</span></div><div class="hrow"><span class="hd">Friday</span><span class="ht">7:00 AM – 7:00 PM</span></div><div class="hrow"><span class="hd">Saturday</span><span class="ht">7:00 AM – 6:00 PM</span></div><div class="hrow"><span class="hd">Sunday</span><span class="ht">10:00 AM – 4:00 PM</span></div>
+<section class="section cream" id="price"><div class="wrap">
+  <div class="eyebrow">The price plate</div>
+  <h2 class="serif">Honest <em>numbers,</em> set in brass.</h2>
+  <div class="plate">
+    <h3>Cuts &amp; shaves</h3>
+    <div class="row"><div class="nm serif">Men's haircut<small>Wash, cut, finished neckline</small></div><div class="p serif">$30</div></div>
+    <div class="row"><div class="nm serif">Skin fade<small>Hand-blended, taper to zero</small></div><div class="p serif">$35</div></div>
+    <div class="row"><div class="nm serif">Beard line-up<small>Shape, neck, hot-towel finish</small></div><div class="p serif">$20</div></div>
+    <div class="row"><div class="nm serif">Straight-razor shave<small>Pre-shave oil, two passes, balm</small></div><div class="p serif">$35</div></div>
+    <div class="row"><div class="nm serif">Kids' cut<small>Twelve and under</small></div><div class="p serif">$25</div></div>
+    <div class="row"><div class="nm serif">Senior cut<small>Same care, gentler pace</small></div><div class="p serif">$25</div></div>
+    <div class="row"><div class="nm serif">Cut + beard combo<small>Both at the same chair</small></div><div class="p serif">$45</div></div>
+    <div class="foot">All cash. ATM next door. Tips appreciated, never expected.</div>
+  </div>
+</div></section>
+
+<section class="section words" id="words"><div class="wrap">
+  <div class="eyebrow">From the chair</div>
+  <h2 class="serif">What <em>regulars</em> write back.</h2>
+  <div class="grid">
+    <div class="q"><p>"Exceptional cut and outstanding service at Lincoln Barbers. Chayan gave me a really good haircut — focused, precise, and unhurried."</p><div class="who">Seek T.</div></div>
+    <div class="q"><p>"Just walked out and had an excellent experience. No nonsense. Ruben was quiet, haircut was excellent. Finished it with a straight razor around the edges, which was nice. Certainly will be coming back. $30."</p><div class="who">Chris S.</div></div>
+    <div class="q"><p>"I went in after some guy butchered my hair so bad I didn't know what to do. The guy in there saw how messed up my hair was and straight away sat me down and fixed me up."</p><div class="who">Lee R.</div></div>
+    <div class="q"><p>"I went there today for the first time, and Daniel was great! He's really talented and super kind. The fade came out awesome, and he didn't take long at all, plus it's affordable. I'll be coming back for sure."</p><div class="who">Adel A.</div></div>
+  </div>
+</div></section>
+
+<section class="section visit" id="visit"><div class="wrap">
+  <div class="eyebrow">Find the shop</div>
+  <h2 class="serif">Lincoln Boulevard, <em>Santa Monica.</em></h2>
+  <div class="card">
+    <div class="head">
+      <h3 class="serif">Lincoln <em>&amp;</em> Barbers</h3>
+      <div style="font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--brass-2);font-weight:500;margin-top:6px">1511 Lincoln Blvd · Santa Monica · 90401</div>
     </div>
-    <iframe loading="lazy" src="https://www.google.com/maps?q=1511+Lincoln+Blvd,+Santa+Monica,+CA+90401,+USA&output=embed" title="Map to Lincoln Barbers"></iframe>
+    <div class="grid">
+      <div class="info">
+        <div class="row"><span class="k">Mon</span><span class="v">7:00 am — 5:00 pm</span></div>
+        <div class="row"><span class="k">Tue – Fri</span><span class="v">7:00 am — 7:00 pm</span></div>
+        <div class="row"><span class="k">Saturday</span><span class="v">7:00 am — 6:00 pm</span></div>
+        <div class="row"><span class="k">Sunday</span><span class="v">10:00 am — 4:00 pm</span></div>
+        <div class="row"><span class="k">Phone</span><span class="v"><a href="tel:+13104510990">(310) 451-0990</a></span></div>
+        <div class="row"><span class="k">Payment</span><span class="v">Cash only — ATM nearby</span></div>
+      </div>
+      <iframe loading="lazy" src="https://www.google.com/maps?q=1511+Lincoln+Blvd+Santa+Monica+CA&output=embed" title="Map to Lincoln Barbers"></iframe>
+    </div>
+    <div class="actions">
+      <a class="btn solid" href="tel:+13104510990">Call · (310) 451-0990</a>
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=1511+Lincoln+Blvd+Santa+Monica" target="_blank" rel="noopener">Directions</a>
+    </div>
   </div>
 </div></section>
 
 <footer><div class="wrap">
-  <div class="fbrand">Lincoln Barbers</div>
-  <div style="font-size:13px;opacity:.7;margin-top:4px">1511 Lincoln Blvd, Santa Monica, CA 90401, USA</div>
-  <div class="credit">Mockup designed by LJ Sites — interested in making this yours? <a href="mailto:LJsites.llc@gmail.com">LJsites.llc@gmail.com</a></div>
+  <div class="fb serif">Lincoln <span class="am">&amp;</span> Barbers</div>
+  <div>1511 Lincoln Blvd · Santa Monica, CA 90401 · (310) 451-0990</div>
+  <div class="credit"><em>Mockup designed by LJ Sites — interested in making this yours?</em> <a href="mailto:LJsites.llc@gmail.com">LJsites.llc@gmail.com</a></div>
 </div></footer>
 </body></html>
